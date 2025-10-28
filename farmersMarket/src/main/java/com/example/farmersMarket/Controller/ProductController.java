@@ -4,6 +4,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController; 
 
 import com.example.farmersMarket.Model.Product;
+import com.example.farmersMarket.Service.JpaProductService;
 import com.example.farmersMarket.Service.ProductService;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -23,36 +24,39 @@ public class ProductController {
 
     @Autowired
     private ProductService service;
+
+    @Autowired 
+    private JpaProductService jpaService;
     
     @GetMapping("/")
     public ArrayList<Product> getProducts()
     {
-        return service.getProducts();
+        return jpaService.getProducts();
     }
 
     @GetMapping("/{productId}")
    public Product geProduct(@PathVariable int productId)
    {
-    return service.getProduct(productId);
+    return jpaService.getProduct(productId);
    }
 
    @PostMapping("/")
    public String addProduct(@RequestBody Product product)
    {
-    return service.addProduct(product);
+    return jpaService.addProduct(product);
    }
 
    @DeleteMapping("/{productId}")
    public void deleteProduct(@PathVariable int productId)
    {
-    service.deleteProduct(productId);
+    jpaService.deleteProduct(productId);
    }
 
    @PutMapping("/{productId}")
    public Product modifyProduct(@PathVariable int productId,@RequestBody Product product)
    {
 
-    return service.modifyProduct(productId, product);
+    return jpaService.modifyProduct(productId, product);
 
    }
 
