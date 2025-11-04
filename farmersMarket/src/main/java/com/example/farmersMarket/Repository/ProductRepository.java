@@ -6,8 +6,7 @@ import java.util.*;
 import com.example.farmersMarket.Model.Product;
 
 public interface ProductRepository {
-
-
+    
     public ArrayList<Product> getProducts();
     public Product getProduct(int productId);
     public String addProduct(Product product);

@@ -44,7 +44,7 @@ public class UserService implements UserRepository {
         return userList;
     }
 
-    @Override
+   /*  @Override
     public String userLogin(User user)
     {
         try{
@@ -57,7 +57,7 @@ public class UserService implements UserRepository {
             if(validPassword)
               return "Valid User,Sorry for inconvience";
             else
-              throw new ResponseStatusException(HttpStatus.UNAUTHORIZED,"INVALID PASSWORD");*/ 
+              throw new ResponseStatusException(HttpStatus.UNAUTHORIZED,"INVALID PASSWORD");
               return "Valid";
         }
        throw new ResponseStatusException(HttpStatus.UNAUTHORIZED,"INVALID USER");
@@ -67,6 +67,6 @@ public class UserService implements UserRepository {
     {
          throw new ResponseStatusException(HttpStatus.UNAUTHORIZED,"INVALID USER");
     }
-    }
+    } */
     
 }

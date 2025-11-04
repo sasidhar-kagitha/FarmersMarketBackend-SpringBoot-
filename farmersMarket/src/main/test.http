@@ -8,3 +8,6 @@ Content-Type: application/json
     "userName":"sasi",
     "password":"sasidhar@123"
 }
+
+###
+GET  http://localhost:8080/products/12

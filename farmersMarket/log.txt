@@ -1,0 +1,206 @@
+Wed Oct 29 18:47:17 IST 2025 getUsers is executed
+[2m2025-10-29T18:47:38.133+05:30[0;39m [32m INFO[0;39m [35m13990[0;39m [2m--- [farmersMarket ] [   File Watcher] [0;39m[36mrtingClassPathChangeChangedEventListener[0;39m [2m:[0;39m Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+[2m2025-10-29T18:47:38.135+05:30[0;39m [32m INFO[0;39m [35m13990[0;39m [2m--- [farmersMarket ] [      Thread-79] [0;39m[36mo.s.b.w.e.tomcat.GracefulShutdown       [0;39m [2m:[0;39m Commencing graceful shutdown. Waiting for active requests to complete
+[2m2025-10-29T18:47:38.136+05:30[0;39m [32m INFO[0;39m [35m13990[0;39m [2m--- [farmersMarket ] [tomcat-shutdown] [0;39m[36mo.s.b.w.e.tomcat.GracefulShutdown       [0;39m [2m:[0;39m Graceful shutdown complete
+[2m2025-10-29T18:47:38.138+05:30[0;39m [32m INFO[0;39m [35m13990[0;39m [2m--- [farmersMarket ] [      Thread-79] [0;39m[36mj.LocalContainerEntityManagerFactoryBean[0;39m [2m:[0;39m Closing JPA EntityManagerFactory for persistence unit 'default'
+[2m2025-10-29T18:47:38.139+05:30[0;39m [32m INFO[0;39m [35m13990[0;39m [2m--- [farmersMarket ] [      Thread-79] [0;39m[36mcom.zaxxer.hikari.HikariDataSource      [0;39m [2m:[0;39m HikariPool-20 - Shutdown initiated...
+[2m2025-10-29T18:47:38.140+05:30[0;39m [32m INFO[0;39m [35m13990[0;39m [2m--- [farmersMarket ] [      Thread-79] [0;39m[36mcom.zaxxer.hikari.HikariDataSource      [0;39m [2m:[0;39m HikariPool-20 - Shutdown completed.
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+[32m :: Spring Boot :: [39m             [2m (v3.4.10)[0;39m
+
+[2m2025-10-29T18:47:38.249+05:30[0;39m [32m INFO[0;39m [35m13990[0;39m [2m--- [farmersMarket ] [  restartedMain] [0;39m[36mc.e.f.FarmersMarketApplication          [0;39m [2m:[0;39m Starting FarmersMarketApplication using Java 24.0.2 with PID 13990 (/home/sasidhar/Projects/FarmersMarketBackend/farmersMarket/target/classes started by sasidhar in /home/sasidhar/Projects/FarmersMarketBackend/farmersMarket)
+[2m2025-10-29T18:47:38.249+05:30[0;39m [32m INFO[0;39m [35m13990[0;39m [2m--- [farmersMarket ] [  restartedMain] [0;39m[36mc.e.f.FarmersMarketApplication          [0;39m [2m:[0;39m No active profile set, falling back to 1 default profile: "default"
+[2m2025-10-29T18:47:38.317+05:30[0;39m [32m INFO[0;39m [35m13990[0;39m [2m--- [farmersMarket ] [  restartedMain] [0;39m[36m.s.d.r.c.RepositoryConfigurationDelegate[0;39m [2m:[0;39m Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2m2025-10-29T18:47:38.322+05:30[0;39m [32m INFO[0;39m [35m13990[0;39m [2m--- [farmersMarket ] [  restartedMain] [0;39m[36m.s.d.r.c.RepositoryConfigurationDelegate[0;39m [2m:[0;39m Finished Spring Data repository scanning in 4 ms. Found 1 JPA repository interface.
+[2m2025-10-29T18:47:38.391+05:30[0;39m [32m INFO[0;39m [35m13990[0;39m [2m--- [farmersMarket ] [  restartedMain] [0;39m[36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat initialized with port 8080 (http)
+[2m2025-10-29T18:47:38.391+05:30[0;39m [32m INFO[0;39m [35m13990[0;39m [2m--- [farmersMarket ] [  restartedMain] [0;39m[36mo.apache.catalina.core.StandardService  [0;39m [2m:[0;39m Starting service [Tomcat]
+[2m2025-10-29T18:47:38.391+05:30[0;39m [32m INFO[0;39m [35m13990[0;39m [2m--- [farmersMarket ] [  restartedMain] [0;39m[36mo.apache.catalina.core.StandardEngine   [0;39m [2m:[0;39m Starting Servlet engine: [Apache Tomcat/10.1.46]
+[2m2025-10-29T18:47:38.396+05:30[0;39m [32m INFO[0;39m [35m13990[0;39m [2m--- [farmersMarket ] [  restartedMain] [0;39m[36mo.a.c.c.C.[Tomcat].[localhost].[/]      [0;39m [2m:[0;39m Initializing Spring embedded WebApplicationContext
+[2m2025-10-29T18:47:38.397+05:30[0;39m [32m INFO[0;39m [35m13990[0;39m [2m--- [farmersMarket ] [  restartedMain] [0;39m[36mw.s.c.ServletWebServerApplicationContext[0;39m [2m:[0;39m Root WebApplicationContext: initialization completed in 146 ms
+[2m2025-10-29T18:47:38.434+05:30[0;39m [32m INFO[0;39m [35m13990[0;39m [2m--- [farmersMarket ] [  restartedMain] [0;39m[36mo.hibernate.jpa.internal.util.LogHelper [0;39m [2m:[0;39m HHH000204: Processing PersistenceUnitInfo [name: default]
+[2m2025-10-29T18:47:38.436+05:30[0;39m [32m INFO[0;39m [35m13990[0;39m [2m--- [farmersMarket ] [  restartedMain] [0;39m[36mo.h.c.internal.RegionFactoryInitiator   [0;39m [2m:[0;39m HHH000026: Second-level cache disabled
+[2m2025-10-29T18:47:38.441+05:30[0;39m [32m INFO[0;39m [35m13990[0;39m [2m--- [farmersMarket ] [  restartedMain] [0;39m[36mo.s.o.j.p.SpringPersistenceUnitInfo     [0;39m [2m:[0;39m No LoadTimeWeaver setup: ignoring JPA class transformer
+[2m2025-10-29T18:47:38.442+05:30[0;39m [32m INFO[0;39m [35m13990[0;39m [2m--- [farmersMarket ] [  restartedMain] [0;39m[36mcom.zaxxer.hikari.HikariDataSource      [0;39m [2m:[0;39m HikariPool-21 - Starting...
+[2m2025-10-29T18:47:38.442+05:30[0;39m [32m INFO[0;39m [35m13990[0;39m [2m--- [farmersMarket ] [  restartedMain] [0;39m[36mcom.zaxxer.hikari.pool.HikariPool       [0;39m [2m:[0;39m HikariPool-21 - Added connection org.sqlite.jdbc4.JDBC4Connection@26d08a16
+[2m2025-10-29T18:47:38.442+05:30[0;39m [32m INFO[0;39m [35m13990[0;39m [2m--- [farmersMarket ] [  restartedMain] [0;39m[36mcom.zaxxer.hikari.HikariDataSource      [0;39m [2m:[0;39m HikariPool-21 - Start completed.
+[2m2025-10-29T18:47:38.443+05:30[0;39m [32m INFO[0;39m [35m13990[0;39m [2m--- [farmersMarket ] [  restartedMain] [0;39m[36morg.hibernate.orm.connections.pooling   [0;39m [2m:[0;39m HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-21)']
+	Database driver: undefined/unknown
+	Database version: 3.42
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+[2m2025-10-29T18:47:38.467+05:30[0;39m [32m INFO[0;39m [35m13990[0;39m [2m--- [farmersMarket ] [  restartedMain] [0;39m[36mo.h.e.t.j.p.i.JtaPlatformInitiator      [0;39m [2m:[0;39m HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[2m2025-10-29T18:47:38.469+05:30[0;39m [32m INFO[0;39m [35m13990[0;39m [2m--- [farmersMarket ] [  restartedMain] [0;39m[36mj.LocalContainerEntityManagerFactoryBean[0;39m [2m:[0;39m Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2m2025-10-29T18:47:38.597+05:30[0;39m [33m WARN[0;39m [35m13990[0;39m [2m--- [farmersMarket ] [  restartedMain] [0;39m[36mJpaBaseConfiguration$JpaWebConfiguration[0;39m [2m:[0;39m spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2m2025-10-29T18:47:38.742+05:30[0;39m [32m INFO[0;39m [35m13990[0;39m [2m--- [farmersMarket ] [  restartedMain] [0;39m[36mo.s.b.d.a.OptionalLiveReloadServer      [0;39m [2m:[0;39m LiveReload server is running on port 35729
+[2m2025-10-29T18:47:38.752+05:30[0;39m [32m INFO[0;39m [35m13990[0;39m [2m--- [farmersMarket ] [  restartedMain] [0;39m[36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat started on port 8080 (http) with context path '/'
+[2m2025-10-29T18:47:38.755+05:30[0;39m [32m INFO[0;39m [35m13990[0;39m [2m--- [farmersMarket ] [  restartedMain] [0;39m[36mc.e.f.FarmersMarketApplication          [0;39m [2m:[0;39m Started FarmersMarketApplication in 0.521 seconds (process running for 1343.098)
+[2m2025-10-29T18:47:38.755+05:30[0;39m [32m INFO[0;39m [35m13990[0;39m [2m--- [farmersMarket ] [  restartedMain] [0;39m[36m.ConditionEvaluationDeltaLoggingListener[0;39m [2m:[0;39m Condition evaluation unchanged
+[2m2025-10-29T18:47:41.146+05:30[0;39m [32m INFO[0;39m [35m13990[0;39m [2m--- [farmersMarket ] [   File Watcher] [0;39m[36mrtingClassPathChangeChangedEventListener[0;39m [2m:[0;39m Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+[2m2025-10-29T18:47:41.148+05:30[0;39m [32m INFO[0;39m [35m13990[0;39m [2m--- [farmersMarket ] [      Thread-83] [0;39m[36mo.s.b.w.e.tomcat.GracefulShutdown       [0;39m [2m:[0;39m Commencing graceful shutdown. Waiting for active requests to complete
+[2m2025-10-29T18:47:41.149+05:30[0;39m [32m INFO[0;39m [35m13990[0;39m [2m--- [farmersMarket ] [tomcat-shutdown] [0;39m[36mo.s.b.w.e.tomcat.GracefulShutdown       [0;39m [2m:[0;39m Graceful shutdown complete
+[2m2025-10-29T18:47:41.151+05:30[0;39m [32m INFO[0;39m [35m13990[0;39m [2m--- [farmersMarket ] [      Thread-83] [0;39m[36mj.LocalContainerEntityManagerFactoryBean[0;39m [2m:[0;39m Closing JPA EntityManagerFactory for persistence unit 'default'
+[2m2025-10-29T18:47:41.151+05:30[0;39m [32m INFO[0;39m [35m13990[0;39m [2m--- [farmersMarket ] [      Thread-83] [0;39m[36mcom.zaxxer.hikari.HikariDataSource      [0;39m [2m:[0;39m HikariPool-21 - Shutdown initiated...
+[2m2025-10-29T18:47:41.152+05:30[0;39m [32m INFO[0;39m [35m13990[0;39m [2m--- [farmersMarket ] [      Thread-83] [0;39m[36mcom.zaxxer.hikari.HikariDataSource      [0;39m [2m:[0;39m HikariPool-21 - Shutdown completed.
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+[32m :: Spring Boot :: [39m             [2m (v3.4.10)[0;39m
+
+[2m2025-10-29T18:47:41.274+05:30[0;39m [32m INFO[0;39m [35m13990[0;39m [2m--- [farmersMarket ] [  restartedMain] [0;39m[36mc.e.f.FarmersMarketApplication          [0;39m [2m:[0;39m Starting FarmersMarketApplication using Java 24.0.2 with PID 13990 (/home/sasidhar/Projects/FarmersMarketBackend/farmersMarket/target/classes started by sasidhar in /home/sasidhar/Projects/FarmersMarketBackend/farmersMarket)
+[2m2025-10-29T18:47:41.274+05:30[0;39m [32m INFO[0;39m [35m13990[0;39m [2m--- [farmersMarket ] [  restartedMain] [0;39m[36mc.e.f.FarmersMarketApplication          [0;39m [2m:[0;39m No active profile set, falling back to 1 default profile: "default"
+[2m2025-10-29T18:47:41.355+05:30[0;39m [32m INFO[0;39m [35m13990[0;39m [2m--- [farmersMarket ] [  restartedMain] [0;39m[36m.s.d.r.c.RepositoryConfigurationDelegate[0;39m [2m:[0;39m Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2m2025-10-29T18:47:41.360+05:30[0;39m [32m INFO[0;39m [35m13990[0;39m [2m--- [farmersMarket ] [  restartedMain] [0;39m[36m.s.d.r.c.RepositoryConfigurationDelegate[0;39m [2m:[0;39m Finished Spring Data repository scanning in 4 ms. Found 1 JPA repository interface.
+[2m2025-10-29T18:47:41.438+05:30[0;39m [32m INFO[0;39m [35m13990[0;39m [2m--- [farmersMarket ] [  restartedMain] [0;39m[36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat initialized with port 8080 (http)
+[2m2025-10-29T18:47:41.439+05:30[0;39m [32m INFO[0;39m [35m13990[0;39m [2m--- [farmersMarket ] [  restartedMain] [0;39m[36mo.apache.catalina.core.StandardService  [0;39m [2m:[0;39m Starting service [Tomcat]
+[2m2025-10-29T18:47:41.439+05:30[0;39m [32m INFO[0;39m [35m13990[0;39m [2m--- [farmersMarket ] [  restartedMain] [0;39m[36mo.apache.catalina.core.StandardEngine   [0;39m [2m:[0;39m Starting Servlet engine: [Apache Tomcat/10.1.46]
+[2m2025-10-29T18:47:41.443+05:30[0;39m [32m INFO[0;39m [35m13990[0;39m [2m--- [farmersMarket ] [  restartedMain] [0;39m[36mo.a.c.c.C.[Tomcat].[localhost].[/]      [0;39m [2m:[0;39m Initializing Spring embedded WebApplicationContext
+[2m2025-10-29T18:47:41.443+05:30[0;39m [32m INFO[0;39m [35m13990[0;39m [2m--- [farmersMarket ] [  restartedMain] [0;39m[36mw.s.c.ServletWebServerApplicationContext[0;39m [2m:[0;39m Root WebApplicationContext: initialization completed in 168 ms
+[2m2025-10-29T18:47:41.477+05:30[0;39m [32m INFO[0;39m [35m13990[0;39m [2m--- [farmersMarket ] [  restartedMain] [0;39m[36mo.hibernate.jpa.internal.util.LogHelper [0;39m [2m:[0;39m HHH000204: Processing PersistenceUnitInfo [name: default]
+[2m2025-10-29T18:47:41.478+05:30[0;39m [32m INFO[0;39m [35m13990[0;39m [2m--- [farmersMarket ] [  restartedMain] [0;39m[36mo.h.c.internal.RegionFactoryInitiator   [0;39m [2m:[0;39m HHH000026: Second-level cache disabled
+[2m2025-10-29T18:47:41.483+05:30[0;39m [32m INFO[0;39m [35m13990[0;39m [2m--- [farmersMarket ] [  restartedMain] [0;39m[36mo.s.o.j.p.SpringPersistenceUnitInfo     [0;39m [2m:[0;39m No LoadTimeWeaver setup: ignoring JPA class transformer
+[2m2025-10-29T18:47:41.484+05:30[0;39m [32m INFO[0;39m [35m13990[0;39m [2m--- [farmersMarket ] [  restartedMain] [0;39m[36mcom.zaxxer.hikari.HikariDataSource      [0;39m [2m:[0;39m HikariPool-22 - Starting...
+[2m2025-10-29T18:47:41.485+05:30[0;39m [32m INFO[0;39m [35m13990[0;39m [2m--- [farmersMarket ] [  restartedMain] [0;39m[36mcom.zaxxer.hikari.pool.HikariPool       [0;39m [2m:[0;39m HikariPool-22 - Added connection org.sqlite.jdbc4.JDBC4Connection@6897ed04
+[2m2025-10-29T18:47:41.485+05:30[0;39m [32m INFO[0;39m [35m13990[0;39m [2m--- [farmersMarket ] [  restartedMain] [0;39m[36mcom.zaxxer.hikari.HikariDataSource      [0;39m [2m:[0;39m HikariPool-22 - Start completed.
+[2m2025-10-29T18:47:41.485+05:30[0;39m [32m INFO[0;39m [35m13990[0;39m [2m--- [farmersMarket ] [  restartedMain] [0;39m[36morg.hibernate.orm.connections.pooling   [0;39m [2m:[0;39m HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-22)']
+	Database driver: undefined/unknown
+	Database version: 3.42
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+[2m2025-10-29T18:47:41.511+05:30[0;39m [32m INFO[0;39m [35m13990[0;39m [2m--- [farmersMarket ] [  restartedMain] [0;39m[36mo.h.e.t.j.p.i.JtaPlatformInitiator      [0;39m [2m:[0;39m HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[2m2025-10-29T18:47:41.513+05:30[0;39m [32m INFO[0;39m [35m13990[0;39m [2m--- [farmersMarket ] [  restartedMain] [0;39m[36mj.LocalContainerEntityManagerFactoryBean[0;39m [2m:[0;39m Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2m2025-10-29T18:47:41.647+05:30[0;39m [33m WARN[0;39m [35m13990[0;39m [2m--- [farmersMarket ] [  restartedMain] [0;39m[36mJpaBaseConfiguration$JpaWebConfiguration[0;39m [2m:[0;39m spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2m2025-10-29T18:47:41.828+05:30[0;39m [32m INFO[0;39m [35m13990[0;39m [2m--- [farmersMarket ] [  restartedMain] [0;39m[36mo.s.b.d.a.OptionalLiveReloadServer      [0;39m [2m:[0;39m LiveReload server is running on port 35729
+[2m2025-10-29T18:47:41.837+05:30[0;39m [32m INFO[0;39m [35m13990[0;39m [2m--- [farmersMarket ] [  restartedMain] [0;39m[36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat started on port 8080 (http) with context path '/'
+[2m2025-10-29T18:47:41.841+05:30[0;39m [32m INFO[0;39m [35m13990[0;39m [2m--- [farmersMarket ] [  restartedMain] [0;39m[36mc.e.f.FarmersMarketApplication          [0;39m [2m:[0;39m Started FarmersMarketApplication in 0.6 seconds (process running for 1346.184)
+[2m2025-10-29T18:47:41.842+05:30[0;39m [32m INFO[0;39m [35m13990[0;39m [2m--- [farmersMarket ] [  restartedMain] [0;39m[36m.ConditionEvaluationDeltaLoggingListener[0;39m [2m:[0;39m Condition evaluation unchanged
+[2m2025-10-29T18:47:43.232+05:30[0;39m [32m INFO[0;39m [35m13990[0;39m [2m--- [farmersMarket ] [   File Watcher] [0;39m[36mrtingClassPathChangeChangedEventListener[0;39m [2m:[0;39m Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+[2m2025-10-29T18:47:43.233+05:30[0;39m [32m INFO[0;39m [35m13990[0;39m [2m--- [farmersMarket ] [      Thread-87] [0;39m[36mo.s.b.w.e.tomcat.GracefulShutdown       [0;39m [2m:[0;39m Commencing graceful shutdown. Waiting for active requests to complete
+[2m2025-10-29T18:47:43.235+05:30[0;39m [32m INFO[0;39m [35m13990[0;39m [2m--- [farmersMarket ] [tomcat-shutdown] [0;39m[36mo.s.b.w.e.tomcat.GracefulShutdown       [0;39m [2m:[0;39m Graceful shutdown complete
+[2m2025-10-29T18:47:43.237+05:30[0;39m [32m INFO[0;39m [35m13990[0;39m [2m--- [farmersMarket ] [      Thread-87] [0;39m[36mj.LocalContainerEntityManagerFactoryBean[0;39m [2m:[0;39m Closing JPA EntityManagerFactory for persistence unit 'default'
+[2m2025-10-29T18:47:43.239+05:30[0;39m [32m INFO[0;39m [35m13990[0;39m [2m--- [farmersMarket ] [      Thread-87] [0;39m[36mcom.zaxxer.hikari.HikariDataSource      [0;39m [2m:[0;39m HikariPool-22 - Shutdown initiated...
+[2m2025-10-29T18:47:43.240+05:30[0;39m [32m INFO[0;39m [35m13990[0;39m [2m--- [farmersMarket ] [      Thread-87] [0;39m[36mcom.zaxxer.hikari.HikariDataSource      [0;39m [2m:[0;39m HikariPool-22 - Shutdown completed.
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+[32m :: Spring Boot :: [39m             [2m (v3.4.10)[0;39m
+
+[2m2025-10-29T18:47:43.367+05:30[0;39m [32m INFO[0;39m [35m13990[0;39m [2m--- [farmersMarket ] [  restartedMain] [0;39m[36mc.e.f.FarmersMarketApplication          [0;39m [2m:[0;39m Starting FarmersMarketApplication using Java 24.0.2 with PID 13990 (/home/sasidhar/Projects/FarmersMarketBackend/farmersMarket/target/classes started by sasidhar in /home/sasidhar/Projects/FarmersMarketBackend/farmersMarket)
+[2m2025-10-29T18:47:43.367+05:30[0;39m [32m INFO[0;39m [35m13990[0;39m [2m--- [farmersMarket ] [  restartedMain] [0;39m[36mc.e.f.FarmersMarketApplication          [0;39m [2m:[0;39m No active profile set, falling back to 1 default profile: "default"
+[2m2025-10-29T18:47:43.457+05:30[0;39m [32m INFO[0;39m [35m13990[0;39m [2m--- [farmersMarket ] [  restartedMain] [0;39m[36m.s.d.r.c.RepositoryConfigurationDelegate[0;39m [2m:[0;39m Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2m2025-10-29T18:47:43.462+05:30[0;39m [32m INFO[0;39m [35m13990[0;39m [2m--- [farmersMarket ] [  restartedMain] [0;39m[36m.s.d.r.c.RepositoryConfigurationDelegate[0;39m [2m:[0;39m Finished Spring Data repository scanning in 4 ms. Found 1 JPA repository interface.
+[2m2025-10-29T18:47:43.532+05:30[0;39m [32m INFO[0;39m [35m13990[0;39m [2m--- [farmersMarket ] [  restartedMain] [0;39m[36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat initialized with port 8080 (http)
+[2m2025-10-29T18:47:43.532+05:30[0;39m [32m INFO[0;39m [35m13990[0;39m [2m--- [farmersMarket ] [  restartedMain] [0;39m[36mo.apache.catalina.core.StandardService  [0;39m [2m:[0;39m Starting service [Tomcat]
+[2m2025-10-29T18:47:43.532+05:30[0;39m [32m INFO[0;39m [35m13990[0;39m [2m--- [farmersMarket ] [  restartedMain] [0;39m[36mo.apache.catalina.core.StandardEngine   [0;39m [2m:[0;39m Starting Servlet engine: [Apache Tomcat/10.1.46]
+[2m2025-10-29T18:47:43.537+05:30[0;39m [32m INFO[0;39m [35m13990[0;39m [2m--- [farmersMarket ] [  restartedMain] [0;39m[36mo.a.c.c.C.[Tomcat].[localhost].[/]      [0;39m [2m:[0;39m Initializing Spring embedded WebApplicationContext
+[2m2025-10-29T18:47:43.537+05:30[0;39m [32m INFO[0;39m [35m13990[0;39m [2m--- [farmersMarket ] [  restartedMain] [0;39m[36mw.s.c.ServletWebServerApplicationContext[0;39m [2m:[0;39m Root WebApplicationContext: initialization completed in 168 ms
+[2m2025-10-29T18:47:43.576+05:30[0;39m [32m INFO[0;39m [35m13990[0;39m [2m--- [farmersMarket ] [  restartedMain] [0;39m[36mo.hibernate.jpa.internal.util.LogHelper [0;39m [2m:[0;39m HHH000204: Processing PersistenceUnitInfo [name: default]
+[2m2025-10-29T18:47:43.579+05:30[0;39m [32m INFO[0;39m [35m13990[0;39m [2m--- [farmersMarket ] [  restartedMain] [0;39m[36mo.h.c.internal.RegionFactoryInitiator   [0;39m [2m:[0;39m HHH000026: Second-level cache disabled
+[2m2025-10-29T18:47:43.585+05:30[0;39m [32m INFO[0;39m [35m13990[0;39m [2m--- [farmersMarket ] [  restartedMain] [0;39m[36mo.s.o.j.p.SpringPersistenceUnitInfo     [0;39m [2m:[0;39m No LoadTimeWeaver setup: ignoring JPA class transformer
+[2m2025-10-29T18:47:43.586+05:30[0;39m [32m INFO[0;39m [35m13990[0;39m [2m--- [farmersMarket ] [  restartedMain] [0;39m[36mcom.zaxxer.hikari.HikariDataSource      [0;39m [2m:[0;39m HikariPool-23 - Starting...
+[2m2025-10-29T18:47:43.587+05:30[0;39m [32m INFO[0;39m [35m13990[0;39m [2m--- [farmersMarket ] [  restartedMain] [0;39m[36mcom.zaxxer.hikari.pool.HikariPool       [0;39m [2m:[0;39m HikariPool-23 - Added connection org.sqlite.jdbc4.JDBC4Connection@2e9180b3
+[2m2025-10-29T18:47:43.587+05:30[0;39m [32m INFO[0;39m [35m13990[0;39m [2m--- [farmersMarket ] [  restartedMain] [0;39m[36mcom.zaxxer.hikari.HikariDataSource      [0;39m [2m:[0;39m HikariPool-23 - Start completed.
+[2m2025-10-29T18:47:43.587+05:30[0;39m [32m INFO[0;39m [35m13990[0;39m [2m--- [farmersMarket ] [  restartedMain] [0;39m[36morg.hibernate.orm.connections.pooling   [0;39m [2m:[0;39m HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-23)']
+	Database driver: undefined/unknown
+	Database version: 3.42
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+[2m2025-10-29T18:47:43.612+05:30[0;39m [32m INFO[0;39m [35m13990[0;39m [2m--- [farmersMarket ] [  restartedMain] [0;39m[36mo.h.e.t.j.p.i.JtaPlatformInitiator      [0;39m [2m:[0;39m HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[2m2025-10-29T18:47:43.614+05:30[0;39m [32m INFO[0;39m [35m13990[0;39m [2m--- [farmersMarket ] [  restartedMain] [0;39m[36mj.LocalContainerEntityManagerFactoryBean[0;39m [2m:[0;39m Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2m2025-10-29T18:47:43.734+05:30[0;39m [33m WARN[0;39m [35m13990[0;39m [2m--- [farmersMarket ] [  restartedMain] [0;39m[36mJpaBaseConfiguration$JpaWebConfiguration[0;39m [2m:[0;39m spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2m2025-10-29T18:47:43.880+05:30[0;39m [32m INFO[0;39m [35m13990[0;39m [2m--- [farmersMarket ] [  restartedMain] [0;39m[36mo.s.b.d.a.OptionalLiveReloadServer      [0;39m [2m:[0;39m LiveReload server is running on port 35729
+[2m2025-10-29T18:47:43.893+05:30[0;39m [32m INFO[0;39m [35m13990[0;39m [2m--- [farmersMarket ] [  restartedMain] [0;39m[36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat started on port 8080 (http) with context path '/'
+[2m2025-10-29T18:47:43.895+05:30[0;39m [32m INFO[0;39m [35m13990[0;39m [2m--- [farmersMarket ] [  restartedMain] [0;39m[36mc.e.f.FarmersMarketApplication          [0;39m [2m:[0;39m Started FarmersMarketApplication in 0.557 seconds (process running for 1348.239)
+[2m2025-10-29T18:47:43.896+05:30[0;39m [32m INFO[0;39m [35m13990[0;39m [2m--- [farmersMarket ] [  restartedMain] [0;39m[36m.ConditionEvaluationDeltaLoggingListener[0;39m [2m:[0;39m Condition evaluation unchanged
+[2m2025-10-29T18:47:45.042+05:30[0;39m [32m INFO[0;39m [35m13990[0;39m [2m--- [farmersMarket ] [nio-8080-exec-1] [0;39m[36mo.a.c.c.C.[Tomcat].[localhost].[/]      [0;39m [2m:[0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2m2025-10-29T18:47:45.042+05:30[0;39m [32m INFO[0;39m [35m13990[0;39m [2m--- [farmersMarket ] [nio-8080-exec-1] [0;39m[36mo.s.web.servlet.DispatcherServlet       [0;39m [2m:[0;39m Initializing Servlet 'dispatcherServlet'
+[2m2025-10-29T18:47:45.043+05:30[0;39m [32m INFO[0;39m [35m13990[0;39m [2m--- [farmersMarket ] [nio-8080-exec-1] [0;39m[36mo.s.web.servlet.DispatcherServlet       [0;39m [2m:[0;39m Completed initialization in 1 ms
+Wed Oct 29 18:47:45 IST 2025 getUsers is executed
+Wed Oct 29 18:47:46 IST 2025 getUsers is executed
+Wed Oct 29 18:47:47 IST 2025 getUsers is executed
+Wed Oct 29 18:47:54 IST 2025 userLogin is executed
+Wed Oct 29 18:47:57 IST 2025 getProducts is executed
+Wed Oct 29 18:48:08 IST 2025 geProduct is executed
+[2m2025-10-29T18:48:25.346+05:30[0;39m [32m INFO[0;39m [35m13990[0;39m [2m--- [farmersMarket ] [   File Watcher] [0;39m[36mrtingClassPathChangeChangedEventListener[0;39m [2m:[0;39m Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+[2m2025-10-29T18:48:25.347+05:30[0;39m [32m INFO[0;39m [35m13990[0;39m [2m--- [farmersMarket ] [      Thread-91] [0;39m[36mo.s.b.w.e.tomcat.GracefulShutdown       [0;39m [2m:[0;39m Commencing graceful shutdown. Waiting for active requests to complete
+[2m2025-10-29T18:48:25.349+05:30[0;39m [32m INFO[0;39m [35m13990[0;39m [2m--- [farmersMarket ] [tomcat-shutdown] [0;39m[36mo.s.b.w.e.tomcat.GracefulShutdown       [0;39m [2m:[0;39m Graceful shutdown complete
+[2m2025-10-29T18:48:25.352+05:30[0;39m [32m INFO[0;39m [35m13990[0;39m [2m--- [farmersMarket ] [      Thread-91] [0;39m[36mj.LocalContainerEntityManagerFactoryBean[0;39m [2m:[0;39m Closing JPA EntityManagerFactory for persistence unit 'default'
+[2m2025-10-29T18:48:25.353+05:30[0;39m [32m INFO[0;39m [35m13990[0;39m [2m--- [farmersMarket ] [      Thread-91] [0;39m[36mcom.zaxxer.hikari.HikariDataSource      [0;39m [2m:[0;39m HikariPool-23 - Shutdown initiated...
+[2m2025-10-29T18:48:25.354+05:30[0;39m [32m INFO[0;39m [35m13990[0;39m [2m--- [farmersMarket ] [      Thread-91] [0;39m[36mcom.zaxxer.hikari.HikariDataSource      [0;39m [2m:[0;39m HikariPool-23 - Shutdown completed.
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+[32m :: Spring Boot :: [39m             [2m (v3.4.10)[0;39m
+
+[2m2025-10-29T18:48:25.480+05:30[0;39m [32m INFO[0;39m [35m13990[0;39m [2m--- [farmersMarket ] [  restartedMain] [0;39m[36mc.e.f.FarmersMarketApplication          [0;39m [2m:[0;39m Starting FarmersMarketApplication using Java 24.0.2 with PID 13990 (/home/sasidhar/Projects/FarmersMarketBackend/farmersMarket/target/classes started by sasidhar in /home/sasidhar/Projects/FarmersMarketBackend/farmersMarket)
+[2m2025-10-29T18:48:25.480+05:30[0;39m [32m INFO[0;39m [35m13990[0;39m [2m--- [farmersMarket ] [  restartedMain] [0;39m[36mc.e.f.FarmersMarketApplication          [0;39m [2m:[0;39m No active profile set, falling back to 1 default profile: "default"
+[2m2025-10-29T18:48:25.565+05:30[0;39m [32m INFO[0;39m [35m13990[0;39m [2m--- [farmersMarket ] [  restartedMain] [0;39m[36m.s.d.r.c.RepositoryConfigurationDelegate[0;39m [2m:[0;39m Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2m2025-10-29T18:48:25.570+05:30[0;39m [32m INFO[0;39m [35m13990[0;39m [2m--- [farmersMarket ] [  restartedMain] [0;39m[36m.s.d.r.c.RepositoryConfigurationDelegate[0;39m [2m:[0;39m Finished Spring Data repository scanning in 4 ms. Found 1 JPA repository interface.
+[2m2025-10-29T18:48:25.637+05:30[0;39m [32m INFO[0;39m [35m13990[0;39m [2m--- [farmersMarket ] [  restartedMain] [0;39m[36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat initialized with port 8080 (http)
+[2m2025-10-29T18:48:25.638+05:30[0;39m [32m INFO[0;39m [35m13990[0;39m [2m--- [farmersMarket ] [  restartedMain] [0;39m[36mo.apache.catalina.core.StandardService  [0;39m [2m:[0;39m Starting service [Tomcat]
+[2m2025-10-29T18:48:25.638+05:30[0;39m [32m INFO[0;39m [35m13990[0;39m [2m--- [farmersMarket ] [  restartedMain] [0;39m[36mo.apache.catalina.core.StandardEngine   [0;39m [2m:[0;39m Starting Servlet engine: [Apache Tomcat/10.1.46]
+[2m2025-10-29T18:48:25.643+05:30[0;39m [32m INFO[0;39m [35m13990[0;39m [2m--- [farmersMarket ] [  restartedMain] [0;39m[36mo.a.c.c.C.[Tomcat].[localhost].[/]      [0;39m [2m:[0;39m Initializing Spring embedded WebApplicationContext
+[2m2025-10-29T18:48:25.643+05:30[0;39m [32m INFO[0;39m [35m13990[0;39m [2m--- [farmersMarket ] [  restartedMain] [0;39m[36mw.s.c.ServletWebServerApplicationContext[0;39m [2m:[0;39m Root WebApplicationContext: initialization completed in 162 ms
+[2m2025-10-29T18:48:25.679+05:30[0;39m [32m INFO[0;39m [35m13990[0;39m [2m--- [farmersMarket ] [  restartedMain] [0;39m[36mo.hibernate.jpa.internal.util.LogHelper [0;39m [2m:[0;39m HHH000204: Processing PersistenceUnitInfo [name: default]
+[2m2025-10-29T18:48:25.681+05:30[0;39m [32m INFO[0;39m [35m13990[0;39m [2m--- [farmersMarket ] [  restartedMain] [0;39m[36mo.h.c.internal.RegionFactoryInitiator   [0;39m [2m:[0;39m HHH000026: Second-level cache disabled
+[2m2025-10-29T18:48:25.686+05:30[0;39m [32m INFO[0;39m [35m13990[0;39m [2m--- [farmersMarket ] [  restartedMain] [0;39m[36mo.s.o.j.p.SpringPersistenceUnitInfo     [0;39m [2m:[0;39m No LoadTimeWeaver setup: ignoring JPA class transformer
+[2m2025-10-29T18:48:25.687+05:30[0;39m [32m INFO[0;39m [35m13990[0;39m [2m--- [farmersMarket ] [  restartedMain] [0;39m[36mcom.zaxxer.hikari.HikariDataSource      [0;39m [2m:[0;39m HikariPool-24 - Starting...
+[2m2025-10-29T18:48:25.688+05:30[0;39m [32m INFO[0;39m [35m13990[0;39m [2m--- [farmersMarket ] [  restartedMain] [0;39m[36mcom.zaxxer.hikari.pool.HikariPool       [0;39m [2m:[0;39m HikariPool-24 - Added connection org.sqlite.jdbc4.JDBC4Connection@784a0370
+[2m2025-10-29T18:48:25.688+05:30[0;39m [32m INFO[0;39m [35m13990[0;39m [2m--- [farmersMarket ] [  restartedMain] [0;39m[36mcom.zaxxer.hikari.HikariDataSource      [0;39m [2m:[0;39m HikariPool-24 - Start completed.
+[2m2025-10-29T18:48:25.688+05:30[0;39m [32m INFO[0;39m [35m13990[0;39m [2m--- [farmersMarket ] [  restartedMain] [0;39m[36morg.hibernate.orm.connections.pooling   [0;39m [2m:[0;39m HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-24)']
+	Database driver: undefined/unknown
+	Database version: 3.42
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+[2m2025-10-29T18:48:25.716+05:30[0;39m [32m INFO[0;39m [35m13990[0;39m [2m--- [farmersMarket ] [  restartedMain] [0;39m[36mo.h.e.t.j.p.i.JtaPlatformInitiator      [0;39m [2m:[0;39m HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[2m2025-10-29T18:48:25.718+05:30[0;39m [32m INFO[0;39m [35m13990[0;39m [2m--- [farmersMarket ] [  restartedMain] [0;39m[36mj.LocalContainerEntityManagerFactoryBean[0;39m [2m:[0;39m Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2m2025-10-29T18:48:25.901+05:30[0;39m [33m WARN[0;39m [35m13990[0;39m [2m--- [farmersMarket ] [  restartedMain] [0;39m[36mJpaBaseConfiguration$JpaWebConfiguration[0;39m [2m:[0;39m spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2m2025-10-29T18:48:26.043+05:30[0;39m [32m INFO[0;39m [35m13990[0;39m [2m--- [farmersMarket ] [  restartedMain] [0;39m[36mo.s.b.d.a.OptionalLiveReloadServer      [0;39m [2m:[0;39m LiveReload server is running on port 35729
+[2m2025-10-29T18:48:26.055+05:30[0;39m [32m INFO[0;39m [35m13990[0;39m [2m--- [farmersMarket ] [  restartedMain] [0;39m[36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat started on port 8080 (http) with context path '/'
+[2m2025-10-29T18:48:26.058+05:30[0;39m [32m INFO[0;39m [35m13990[0;39m [2m--- [farmersMarket ] [  restartedMain] [0;39m[36mc.e.f.FarmersMarketApplication          [0;39m [2m:[0;39m Started FarmersMarketApplication in 0.594 seconds (process running for 1390.402)
+[2m2025-10-29T18:48:26.059+05:30[0;39m [32m INFO[0;39m [35m13990[0;39m [2m--- [farmersMarket ] [  restartedMain] [0;39m[36m.ConditionEvaluationDeltaLoggingListener[0;39m [2m:[0;39m Condition evaluation unchanged
+[2m2025-10-29T18:48:27.820+05:30[0;39m [32m INFO[0;39m [35m13990[0;39m [2m--- [farmersMarket ] [nio-8080-exec-2] [0;39m[36mo.a.c.c.C.[Tomcat].[localhost].[/]      [0;39m [2m:[0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2m2025-10-29T18:48:27.820+05:30[0;39m [32m INFO[0;39m [35m13990[0;39m [2m--- [farmersMarket ] [nio-8080-exec-2] [0;39m[36mo.s.web.servlet.DispatcherServlet       [0;39m [2m:[0;39m Initializing Servlet 'dispatcherServlet'
+[2m2025-10-29T18:48:27.821+05:30[0;39m [32m INFO[0;39m [35m13990[0;39m [2m--- [farmersMarket ] [nio-8080-exec-2] [0;39m[36mo.s.web.servlet.DispatcherServlet       [0;39m [2m:[0;39m Completed initialization in 1 ms
+geProduct is executed
+getProducts is executed
+getProducts is executed
+[2m2025-10-29T18:48:42.782+05:30[0;39m [32m INFO[0;39m [35m13990[0;39m [2m--- [farmersMarket ] [ionShutdownHook] [0;39m[36mo.s.b.w.e.tomcat.GracefulShutdown       [0;39m [2m:[0;39m Commencing graceful shutdown. Waiting for active requests to complete
+[2m2025-10-29T18:48:42.784+05:30[0;39m [32m INFO[0;39m [35m13990[0;39m [2m--- [farmersMarket ] [tomcat-shutdown] [0;39m[36mo.s.b.w.e.tomcat.GracefulShutdown       [0;39m [2m:[0;39m Graceful shutdown complete
+[2m2025-10-29T18:48:42.788+05:30[0;39m [32m INFO[0;39m [35m13990[0;39m [2m--- [farmersMarket ] [ionShutdownHook] [0;39m[36mj.LocalContainerEntityManagerFactoryBean[0;39m [2m:[0;39m Closing JPA EntityManagerFactory for persistence unit 'default'
+[2m2025-10-29T18:48:42.789+05:30[0;39m [32m INFO[0;39m [35m13990[0;39m [2m--- [farmersMarket ] [ionShutdownHook] [0;39m[36mcom.zaxxer.hikari.HikariDataSource      [0;39m [2m:[0;39m HikariPool-24 - Shutdown initiated...
+[2m2025-10-29T18:48:42.790+05:30[0;39m [32m INFO[0;39m [35m13990[0;39m [2m--- [farmersMarket ] [ionShutdownHook] [0;39m[36mcom.zaxxer.hikari.HikariDataSource      [0;39m [2m:[0;39m HikariPool-24 - Shutdown completed.
+Wed Oct 29 18:56:09 IST 2025 UserController getUsers is executedWed Oct 29 18:56:20 IST 2025 ProductController getProducts is executedWed Oct 29 18:56:39 IST 2025 ProductController getProducts is executedWed Oct 29 18:59:19 IST 2025 UserController getUsers is executedWed Oct 29 18:59:21 IST 2025 UserController getUsers is executedWed Oct 29 18:59:24 IST 2025 ProductController getProducts is executedWed Oct 29 19:01:33 IST 2025 UserController getUsers is executedWed Oct 29 19:01:38 IST 2025 ProductController getProducts is executed

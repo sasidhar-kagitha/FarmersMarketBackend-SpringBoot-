@@ -7,6 +7,7 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 
+import com.example.farmersMarket.Service.JpaUserService;
 import com.example.farmersMarket.Service.UserService;
 
 import java.util.*;
@@ -22,17 +23,20 @@ public class UserController {
     @Autowired
     private UserService service;
 
+    @Autowired 
+    private JpaUserService jpaService;
+
     @GetMapping("/users")
     public ArrayList<User> getUsers()
     {
-        return service.getUsers();
+        return jpaService.getUsers();
     }
 
-    @PostMapping("/login")
+   /*  @PostMapping("/login")
     public String userLogin(@RequestBody User user)
     {
         return service.userLogin(user);
-    }
+    }*/
 
 
     
