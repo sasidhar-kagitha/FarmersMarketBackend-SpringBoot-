@@ -7,7 +7,7 @@ import org.springframework.security.config.annotation.web.configuration.EnableWe
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.web.SecurityFilterChain;
 import org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter;
-//@EnableWebSecurity(debug = true)
+@EnableWebSecurity(debug = true)
 @Configuration
 public class AppConfig
 {
@@ -20,7 +20,7 @@ public class AppConfig
     public UsernamePasswordAuthenticationFilter usernamePasswordAuthenticationFilter() throws Exception {
         return new UsernamePasswordAuthenticationFilter();}*/
 
-    /*@Bean
+    @Bean
      public SecurityFilterChain securityFilterChain(HttpSecurity http) throws Exception {
          http
              .csrf().disable()
@@ -35,5 +35,5 @@ public class AppConfig
              // disable login page // disable HTTP Basic Auth
            return http.build();
 
-     }*/
+     }
     }
