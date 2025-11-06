@@ -3,9 +3,12 @@
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
+import org.springframework.security.config.annotation.web.configuration.EnableWebSecurity;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.web.SecurityFilterChain;
-
+import org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter;
+//@EnableWebSecurity(debug = true)
+@Configuration
 public class AppConfig
 {
 
@@ -13,18 +16,24 @@ public class AppConfig
      public BCryptPasswordEncoder bcyptEncrypPass()     {
          return new BCryptPasswordEncoder();   
     }
+    /* 
+    public UsernamePasswordAuthenticationFilter usernamePasswordAuthenticationFilter() throws Exception {
+        return new UsernamePasswordAuthenticationFilter();}*/
 
-      @Bean
+    /*@Bean
      public SecurityFilterChain securityFilterChain(HttpSecurity http) throws Exception {
          http
              .csrf().disable()
              .authorizeHttpRequests()
-                 .requestMatchers("/login","/users").permitAll()
+                 .requestMatchers("/auth/login","/users").permitAll()
                  .anyRequest().authenticated()
              .and()
-            .formLogin().disable()  // disable login page
-           .httpBasic().disable(); // disable HTTP Basic Auth
+            .formLogin()
+            .and()
+            .httpBasic();
+           
+             // disable login page // disable HTTP Basic Auth
            return http.build();
 
-     }
+     }*/
     }

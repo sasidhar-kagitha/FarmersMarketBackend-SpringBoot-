@@ -2,6 +2,7 @@ package com.example.farmersMarket.Controller;
 
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
@@ -32,11 +33,20 @@ public class UserController {
         return jpaService.getUsers();
     }
 
-   /*  @PostMapping("/login")
-    public String userLogin(@RequestBody User user)
+    @PostMapping("auth/login")
+    public ResponseEntity<String> userLogin(@RequestBody User user)
     {
-        return service.userLogin(user);
-    }*/
+        return jpaService.userLogin(user);
+    }
+
+    @PostMapping("auth/register")
+    public String userSignUp(@RequestBody User user) {
+        //TODO: process POST request
+        
+        return "User registered successfully";
+    }
+    
+
 
 
     

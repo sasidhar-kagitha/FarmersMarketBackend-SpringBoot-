@@ -80,4 +80,9 @@ public class User {
     {
         return this.password;
     }
+
+    @Override
+    public String toString() {
+        return "User [userId=" + userId + ", userName=" + userName + ", password=" + password + "]";
+    }   
 }

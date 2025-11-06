@@ -38,9 +38,7 @@ public class JpaProductService implements ProductRepository {
     }
     public Product modifyProduct(int productId,Product product)
     {
-                return repo.save(product);
-
+            return repo.save(product);
     }
-
-    
+ 
 }

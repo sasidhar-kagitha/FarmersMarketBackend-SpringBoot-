@@ -7,8 +7,7 @@ import com.example.farmersMarket.Model.Product;
 import com.example.farmersMarket.Service.JpaProductService;
 import com.example.farmersMarket.Service.ProductService;
 
-import org.apache.tomcat.util.http.parser.Authorization;
-import org.apache.tomcat.util.net.openssl.ciphers.Authentication;
+import org.springframework.security.core.Authentication;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -31,7 +30,7 @@ public class ProductController {
     private JpaProductService jpaService;
     
     @GetMapping("/")
-    public ArrayList<Product> getProducts(Authorization authentication)
+    public ArrayList<Product> getProducts(Authentication authentication)
     {
         System.out.println(authentication);
         return jpaService.getProducts();

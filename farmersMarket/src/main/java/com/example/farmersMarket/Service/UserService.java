@@ -12,12 +12,13 @@ import org.springframework.stereotype.Service;
 import org.springframework.web.server.ResponseStatusException;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.HttpStatusCode;
+import org.springframework.http.ResponseEntity;
 
 import com.example.farmersMarket.Model.UserRowMapper;
 import com.example.farmersMarket.Model.User;
 import com.example.farmersMarket.Repository.UserRepository;
 
-//import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
+import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 
 
 
@@ -29,8 +30,8 @@ public class UserService implements UserRepository {
     @Autowired
     private  JdbcTemplate db;
 
-  //  @Autowired 
-  //  private BCryptPasswordEncoder bcyptEncrypPass;
+   @Autowired 
+   private BCryptPasswordEncoder bcyptEncrypPass;
 
 
 
@@ -43,22 +44,30 @@ public class UserService implements UserRepository {
         
         return userList;
     }
+    
 
-   /*  @Override
-    public String userLogin(User user)
+    @Override
+    public ResponseEntity<String> userLogin(User user)
+    {
+      return new ResponseEntity<>("Ok",HttpStatus.OK);
+    }
+
+
+
+   /* public String userLogin(User user)
     {
         try{
         User existingUser = (User)db.queryForObject("SELECT * FROM USERS where user_name=?",new Object[] {user.getUserName()},new UserRowMapper());
         if(existingUser.getUserName().equals(user.getUserName()))
         {
 
-           /* Boolean validPassword = bcyptEncrypPass.matches(user.getPassword(),existingUser.getPassword()); 
+           Boolean validPassword = bcyptEncrypPass.matches(user.getPassword(),existingUser.getPassword()); 
 
             if(validPassword)
               return "Valid User,Sorry for inconvience";
             else
               throw new ResponseStatusException(HttpStatus.UNAUTHORIZED,"INVALID PASSWORD");
-              return "Valid";
+            
         }
        throw new ResponseStatusException(HttpStatus.UNAUTHORIZED,"INVALID USER");
 
@@ -67,6 +76,6 @@ public class UserService implements UserRepository {
     {
          throw new ResponseStatusException(HttpStatus.UNAUTHORIZED,"INVALID USER");
     }
-    } */
+    }*/
     
 }
